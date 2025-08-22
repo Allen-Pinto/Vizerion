@@ -1,6 +1,6 @@
 import { Globe } from "../components/globe.jsx"; // Added .jsx extension
 import CopyEmailButton from "../components/CopyEmailButton.jsx"; // Added .jsx extension
-import { Frameworks } from "../components/FrameWorks.jsx"; // Added .jsx extension
+import { Frameworks } from "../components/Frameworks.jsx"; // Added .jsx extension
 
 const About = () => {
   return (

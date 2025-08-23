@@ -6,7 +6,7 @@ import { useFrame } from "@react-three/fiber";
 export function Astronaut(props) {
   const group = useRef();
   const { scene, animations } = useGLTF(
-    "/models/xbox_elite_controller.glb"  // Your GLB file path
+    "/models/xbox_elite_controller.glb"  
   );
   const { actions } = useAnimations(animations, group);
   
